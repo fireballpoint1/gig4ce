@@ -1,0 +1,79 @@
+{
+    "identityPoolName": "mayankGigforceAuth1IdPool1",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "mayankb6bc05b5",
+    "userPoolName": "mayankGigforceAuth1UserPool",
+    "autoVerifiedAttributes": [
+        "phone_number"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+        "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your OTP is : {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": true,
+    "passwordPolicyMinLength": "8",
+    "passwordPolicyCharacters": [
+        "Requires Lowercase",
+        "Requires Uppercase",
+        "Requires Numbers",
+        "Requires Symbols"
+    ],
+    "requiredAttributes": [
+        "birthdate",
+        "email",
+        "gender",
+        "name",
+        "updated_at"
+    ],
+    "userpoolClientGenerateSecret": true,
+    "userpoolClientRefreshTokenValidity": "7",
+    "userpoolClientWriteAttributes": [
+        "birthdate",
+        "email",
+        "gender",
+        "name",
+        "updated_at"
+    ],
+    "userpoolClientReadAttributes": [
+        "email",
+        "phone_number",
+        "phone_number_verified"
+    ],
+    "userpoolClientLambdaRole": "mayankb6bc05b5_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": true,
+    "useDefault": "manual",
+    "authSelections": "identityPoolAndUserPool",
+    "resourceName": "mayankGigforceAuth1",
+    "thirdPartyAuth": false,
+    "usernameAttributes": [
+        "phone_number"
+    ],
+    "userPoolGroups": true,
+    "adminQueries": true,
+    "triggers": "{}",
+    "hostedUI": false,
+    "userPoolGroupList": [
+        "giggers"
+    ],
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    },
+    "parentStack": {
+        "Ref": "AWS::StackId"
+    },
+    "permissions": [],
+    "dependsOn": []
+}

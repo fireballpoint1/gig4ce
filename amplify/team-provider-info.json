@@ -1,0 +1,20 @@
+{
+    "amplify": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-gig4ce-amplify-160718-authRole",
+            "UnauthRoleArn": "arn:aws:iam::439888679778:role/amplify-gig4ce-amplify-160718-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::439888679778:role/amplify-gig4ce-amplify-160718-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "amplify-gig4ce-amplify-160718-deployment",
+            "UnauthRoleName": "amplify-gig4ce-amplify-160718-unauthRole",
+            "StackName": "amplify-gig4ce-amplify-160718",
+            "StackId": "arn:aws:cloudformation:ap-south-1:439888679778:stack/amplify-gig4ce-amplify-160718/3444bca0-20b9-11ea-9977-0207d27cfd0c",
+            "AmplifyAppId": "d2px489gelxcu9"
+        },
+        "categories": {
+            "auth": {
+                "mayankGigforceAuth1": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">gig4ce</string>
+    <string name="can_we_have_your_number">Can we have your number</string>
+    <string name="send_OTP">send OTP</string>
+</resources>
